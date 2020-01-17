@@ -73,9 +73,8 @@ h1, h2, h3, h4, h5 {
 
 
 .container{
-	border: 1px black solid;
+	border: 1px white solid;
 	
-
 }
 
 .top{
@@ -202,7 +201,8 @@ footer .info1{
 	border-top: 1px solid gray;
 	font-size: 18px;
 	padding: 1% 14%;
-	border: 3px red solid;
+	border: 3px white solid;
+	
 }	
 
 .pair{
@@ -224,19 +224,20 @@ footer .info1{
 }
 
 .footer1{
-	border: 1px red solid;
-	
+	border: 1px white solid;
+	width: 100%;
 
 }
 
 .facts{
-	border: 1px black solid;
+	border: 1px white solid;
 	margin: 2%;
 	padding: 4%;
+	width: 100%;
 }
 
 .bottomimg{
-	border: 1px black solid;
+	border: 1px white solid;
 	margin: 2%;
 	padding: 4%;
 }
