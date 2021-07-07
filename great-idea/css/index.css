@@ -64,3 +64,196 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+*{
+	box-sizing:border-box;
+  	padding:0;
+ 	margin:0;
+	max-width: 100%;
+}
+
+
+.container{
+	border: 1px white solid;
+	
+}
+
+.top{
+	border: 4px white solid;
+	display: flex;
+	justify-content: space-around;
+}
+
+.top .navigation{
+	border: 1px white solid;
+	width: 72%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	text-align: right;
+}
+
+.top .navigation nav{
+	border: 1px white solid;
+	display: flex;
+	justify-content: center;
+	width: 87%;
+	
+}
+
+.top nav a{
+  	color: gray;
+	text-decoration: none;
+	border: white 1px solid;
+	width:80%;
+}
+
+.greatidea{
+	display: flex;
+	justify-content: flex-start;
+	border: 3px white solid;
+	width:27%;
+}
+
+.logo{
+	border: 1px white solid;
+}
+
+.titlehead{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.innovation{
+	width: 40%;
+	font-size: 80px;
+	border:  1px white solid;
+	text-align: center;
+}
+
+.img{	
+	border: 1px white solid;
+	width: 40%;	
+}
+
+.body{
+	border-top: 1px solid gray;
+	border-Bottom: 1px solid gray;
+	font-size: 18px;
+	padding: 1% 15%;	
+}
+
+.body .toptext{
+	border: 1px white solid;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.bodyimg{
+	border: 3px white solid;	
+}
+
+.middle-img{
+	width: 100%;
+}
+
+.bottomtext{
+	border: 1px white solid;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+footer{
+	width: 30%;
+	font-size: 18px;
+	border: 1px white solid;
+	padding: 1%;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+
+footer .info1{
+	width: 50%;
+	border: 1px white solid;
+}
+
+.copy p{
+	text-align: center;
+}
+
+/*this is the services page*/
+
+.topimg{
+	border: 3px white solid;
+	padding: 1% 16%;
+}
+
+.topimg img{
+	width: 100%;
+}
+
+.services{
+	padding: 1% 16%;
+	border-bottom: 1px solid gray;
+}
+
+.services h1{
+	font-size: 200%;
+}
+
+.body1{
+	border-top: 1px solid gray;
+	border-bottom: 1px solid black;
+	font-size: 18px;
+	padding: 1% 14%;
+	border: 3px white solid;
+	
+}	
+
+.pair{
+	border: 1px white solid;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+	flex-wrap: wrap;
+	
+}
+
+.single{
+	width: 45%;
+	border: 1px black solid;
+	background-color: #C0C0C0;
+	margin: 2%;
+	padding: 4%;
+}
+
+footer{
+	border: 1px white solid;
+	width: 100%;
+	padding: 0 10%;
+	border-top: 1px solid gray;
+}
+
+.footer1{
+	border: 1px white solid;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+
+}
+
+.facts{
+	border: 1px white solid;
+	
+	padding: 1% 4%;
+	width: 45%;
+}
+
+.bottomimg{
+	border: 1px white solid;
+	padding: 1% 4%;
+	width: 45%;
+}
